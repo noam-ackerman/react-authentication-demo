@@ -53,6 +53,11 @@ export default function Login() {
               Log in
             </Button>
           </Form>
+          <div className="w-100 text-center mt-2">
+            <Link to="/forgot-password" style={{ color: "white" }}>
+              Forgot password?
+            </Link>
+          </div>
         </Card.Body>
       </Card>
       <div className="w-100 text-center mt-2">
