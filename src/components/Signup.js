@@ -33,7 +33,7 @@ export default function Signup() {
     <div>
       <Card className="bg-dark">
         <Card.Body>
-          <h2 className="text-center mt-2" style={{ color: "#31D2F2" }}>
+          <h2 className="text-center mt-2 mb-3" style={{ color: "#31D2F2" }}>
             Sign Up
           </h2>
           {error && <Alert variant="danger">{error}</Alert>}
