@@ -14,7 +14,7 @@ export default function Dashboard() {
       await logout();
       history.push("/login");
     } catch {
-      setError("Faild to log out!");
+      setError("Failed to log out!");
     }
   }
 
